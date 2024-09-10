@@ -66,6 +66,7 @@ body{
 .child1 img{
     max-width: 195px;
     border-radius: 5px;
+    border: 2px solid;
 }
 .texter h4{
     font-size: 17px;
