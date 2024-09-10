@@ -17,9 +17,10 @@ body{
     gap: 10px;
     cursor: pointer;
 }
-.logo1 img{
+.logo1 img {
     max-width: 24px;
 }
+
 .logo{
     font-size: 20px;
     font-weight: 600;
@@ -39,93 +40,95 @@ body{
     font-size: 17px;
     font-weight: 400;
 }
-.backg{
-    max-width: 100%;
-    background-color: #F9E6F0;
+.bg1{
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-.parent{
+.childbg1{
+    max-width: 85%;
     display: flex;
-    gap: 60px;
-    padding: 100px 0px 100px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 1.75rem;
 }
-.child1{
+.left{
+    max-width: 34rem;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.child1 img{
-    max-width: 195px;
-}
-.texter h4{
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 27px;
-    text-decoration: underline #2d2d2d69;
-}
-.texter h5{
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 27px;
-}
-.child2{
-    width: 32rem;
-    display: flex;
-    align-items: center;
-}
-.child2 p{
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 27px;
-}
-.sp1{
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 27px;
-}
-.second{
-    display: flex;
-    max-width: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 90px 0px 90px 0px;
-}
-.parent2{
-    width: 57rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 65px;
-
-}
-.child3 h2{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 36px;
-    letter-spacing: 1px;
-    padding: 10px;
-}
-.child4{
-    width: 100%;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    color: #2B2B2B;
-    display: flex;
-    flex-direction: column;
-}
-.sp2{
-    background-color: #009379;
-    display: block;
+.left h2{
+    font-size: 20px;
     font-weight: 600;
-    color:#F6DCE9;
-    padding: 5px 0px 5px 0px;
+    color: #2d2d2d;
+    line-height: 30px;
 }
-.child4 .p1{
-    padding: 5px 0px 5px 0px;
+.left h1{
+    font-size: 80px;
+    font-weight: 600;
+    color: #2d2d2d;
+    line-height: 90px;
+}
+.left p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #2d2d2d;
+}
+.right{
+    max-width: 31rem;
+}
+.bg2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bg2 h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #2d2d2d;
+}
+.letest{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.up{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.down{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.one,.two,.three,.forth,.fifth,.sixth{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h3{
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+color: #2d2d2d;
+}
+h5{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #2d2d2d;
 }
 .third{
     max-width: 100%;
@@ -143,7 +146,7 @@ body{
     max-width: 70rem;
     gap: 100px;
 }
-.left{
+.third .footer .left{
     max-width: 40%;
 }
 .first{
@@ -163,13 +166,13 @@ body{
 }
 .icons{
     margin-top: 40px;
-    width: 232px;
+    width: 232;
     height: 36px;
 }
 .icons img{
     max-width: 35px;
 }
-.right{
+.third .footer .right{ 
     max-width: 60%;
     display: flex;
     flex-direction: column;
@@ -209,76 +212,50 @@ textarea{
     justify-content: center;
     max-width: 60px;
 }
-@media only screen and (max-width:600px){
-    .parent{
+/* @media (min-width:200px) and (max-width:400px){
+    .childbg1{
         flex-direction: column;
-    align-items: flex-start;
-    padding: 120px 30px 120px 30px;
     }
-    .child2{
-        width: fit-content;
-    }
-}
+} */
 @media only screen and (max-width:600px){
-    .parent2{
+    .childbg1{
         flex-direction: column;
-    align-items: flex-start;
-    padding: 120px 30px 120px 30px;
-    width: fit-content;
     }
-    .second{
-        padding: 0%;
+    .up{
+        flex-direction: column;
     }
-}
-@media only screen and (max-width:600px){
+    .down{
+        flex-direction: column;
+    }
     .footer{
         flex-direction: column;
-        gap: 63px;
-    }
-    .third{
-        padding: 0px 30px 70px 30px;
-    }
-    .left{
-        width: fit-content;
-    }
-    .header{
-        padding: 0px;
     }
 }
-
 @media only screen and (max-width:768px){
-    .parent{
+    .childbg1{
         flex-direction: column;
-    align-items: flex-start;
-    padding: 120px 30px 120px 30px;
     }
-    .child2{
-        width: fit-content;
-    }
-}
-@media only screen and (max-width:768px){
-    .parent2{
+    .up{
         flex-direction: column;
-    align-items: flex-start;
-    padding: 120px 30px 120px 30px;
-    width: fit-content;
     }
-    .second{
-        padding: 0%;
+    .down{
+        flex-direction: column;
     }
-}
-@media only screen and (max-width:768px){
     .footer{
         flex-direction: column;
-        gap: 63px;
     }
-    .third{
-        padding: 0px 30px 70px 30px;
+}
+@media only screen and (max-width:1080px){
+    .childbg1{
+        flex-direction: column;
     }
-    .left{
-        width: fit-content;
+    .up{
+        flex-direction: column;
     }
-    .header{
-        padding: 0px;
+    .down{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
     }
 }
