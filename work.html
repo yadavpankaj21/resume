@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="home.css">
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Document</title>
+    <style>html{ scroll-behavior: smooth;}
+        </style>
 </head>
 <body>
     <div class="header">
@@ -15,7 +17,7 @@
         <div class="menu">
             <ul>
                 <li><a href="/">About</a></li>
-                <li><a href="/work.html">Work</a></li>
+                <li><a class="active" href="/work.html">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -28,7 +30,7 @@
                 <p>And I made it myself! Yes. In Figma with Anima</p>
             </div>
             <div class="right">
-                <img src="images/Image.png" alt="image">
+                <img src="video/header-video.gif" controls loop autoplay alt="gif">
             </div>
         </div>
     </div>
@@ -36,12 +38,12 @@
         <h2>My latest work</h2>
         <div class="letest">
             <div class="up">
-                <div class="one"><img src="images/Image1.png" alt="image">
+                <div class="one"><img src="images/imagefg.png" alt="image">
                     <h3>Free Bird</h3>
                     <h5>Lynyrd Skynyrd</h5>
                 </div>
                 <div class="two">
-                    <img src="images/Image4.png" alt="image">
+                    <img src="images/imagef.png" alt="image">
                 <h3>Purple Haze</h3>
                 <h5>Jimi Hendrix</h5>
                 </div>
@@ -71,18 +73,20 @@
         </div>
     </div>
     <div class="third">
-        <div class="footer" id="Contact">
+        <div class="footer" id="contact">
             <div class="left">
                 <div class="first"><h2>Let’s work together</h2>
                     <p>This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
                 </div>
                 <div class="icons">
-                    <img src="images/devicon--github.png" alt="icon">
+                    <a href="https://github.com/yadavpankaj21" target="_blank">
+                        <img src="images/devicon--github.png" alt="icon">
+                    </a>
                 </div>
             </div>
             <div class="right">
                 <div class="info">
-                    <input type="text" placeholder="NAME">
+                    <input type="text" placeholder="Name">
                     <input type="email" placeholder="Email">
                     <textarea name="text" id="" placeholder="Type your message here" rows="10" cols="50"></textarea>
                 </div>

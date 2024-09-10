@@ -11,6 +11,9 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0px 40px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 .logo1{
     display: flex;
@@ -80,6 +83,13 @@ body{
 .right{
     max-width: 31rem;
 }
+.menu a.active{
+    text-decoration: underline;
+}
+
+/* video{
+    max-width: 31rem;
+} */
 .bg2{
     width: 100%;
     display: flex;
@@ -109,14 +119,32 @@ body{
     justify-content: center;
 }
 .down{
-    display: flex;
+    display: none;
+    /* display: flex;
     gap: 50px;
-    justify-content: center;
+    justify-content: center; */
 }
-.one,.two,.three,.forth,.fifth,.sixth{
+.one,.two,.forth,.fifth,.sixth{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.one img{
+    width: 200px;
+    transition: 0.3s;
+}
+.one img:hover{
+    transform: scale(1.1);
+}
+.two img{
+    width: 224px;
+    transition: 0.2s;
+}
+.two img:hover{
+    transform: scale(0.9);
+}
+.three{
+    display: none;
 }
 h3{
 font-size: 20px;
