@@ -249,6 +249,12 @@ textarea{
     .childbg1{
         flex-direction: column;
     }
+    .childbg1 .left h1{
+        font-size: 63px;
+    }
+    .childbg1 .right img{
+        max-width: 20rem;
+    }
     .up{
         flex-direction: column;
     }
@@ -258,6 +264,16 @@ textarea{
     .footer{
         flex-direction: column;
         align-items: center;
+        padding: 10px;
+    }
+    .third .footer .left{
+        max-width: none;
+    }
+    .third .footer .right{
+        max-width: none;
+    }
+    .header{
+        padding: 0px;
     }
 }
 @media only screen and (max-width:768px){
@@ -273,6 +289,16 @@ textarea{
     .footer{
         flex-direction: column;
         align-items: center;
+        padding: 10px;
+    }
+    .third .footer .left{
+        max-width: none;
+    }
+    .third .footer .right{
+        max-width: none;
+    }
+    .header{
+        padding: 0px;
     }
 }
 @media only screen and (max-width:1080px){
@@ -288,5 +314,14 @@ textarea{
     .footer{
         flex-direction: column;
         align-items: center;
+    }
+    .third .footer .left{
+        max-width: none;
+    }
+    .third .footer .right{
+        max-width: none;
+    }
+    .header{
+        padding: 0px;
     }
 }

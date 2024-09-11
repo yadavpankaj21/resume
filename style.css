@@ -249,7 +249,7 @@ textarea{
         padding: 0px 30px 70px 30px;
     }
     .left{
-        width: fit-content;
+        max-width: none;
     }
     .header{
         padding: 0px;
@@ -287,7 +287,7 @@ textarea{
         padding: 0px 30px 70px 30px;
     }
     .left{
-        width: fit-content;
+        max-width: none;
     }
     .header{
         padding: 0px;
